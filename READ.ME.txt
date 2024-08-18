@@ -1,0 +1,33 @@
+link PARA OS METADOS E SUAS DESCRIÇÕES DE COLUNAS -- https://brasil.io/dataset/gastos-deputados/cota_parlamentar/ --
+
+Dicionário de Dados - Tabela cota parlamentar	
+Coluna 				Tipo 						Título 					Descrição
+numano 				integer 					Ano 	
+nummes 				integer 					Mês 	
+datemissao 			datetime 					Data da Emissão 	
+txnomeparlamentar 		string (max_length=63) 				Parlamentar 	
+sgpartido 			string (max_length=18) 				Partido 	
+sguf 				string (max_length=2) 				UF 	
+txtdescricao 			string (max_length=127) 			Descrição 	
+txtcnpjcpf 			string (max_length=14) 				CPF/CNPJ do Fornecedor 	
+txtfornecedor 			string (max_length=255) 			Fornecedor 	
+vlrdocumento 			decimal (max_digits=8, decimal_places=2) 	Valor do Documento 	
+vlrglosa 			decimal (max_digits=8, decimal_places=2) 	Valor Glosa 	
+codlegislatura 			integer 					codlegislatura 	
+vlrliquido 			decimal (max_digits=8, decimal_places=2) 	Valor Líquido 	
+idedocumento 			integer 					idedocumento 	
+idecadastro 			integer 					idecadastro 	
+indtipodocumento 		integer 					indtipodocumento 	
+nucarteiraparlamentar 		integer 					nucarteiraparlamentar 	
+nudeputadoid 			integer 					nudeputadoid 	
+nulegislatura 			integer 					nulegislatura 	
+numespecificacaosubcota 	integer 					numespecificacaosubcota 	
+numlote 			integer 					numlote 	
+numparcela 			integer 					numparcela 	
+numressarcimento 		integer 					numressarcimento 	
+numsubcota 			integer 					numsubcota 	
+txtdescricaoespecificacao 	string (max_length=31)			 	txtdescricaoespecificacao 	
+txtnumero 			string (max_length=63)			 	txtnumero 	
+txtpassageiro 			string (max_length=127) 			Passageiro 	
+txttrecho 			string (max_length=127) 			Trecho 	
+vlrrestituicao 			decimal (max_digits=8, decimal_places=2) 	Valor da Restituição 
